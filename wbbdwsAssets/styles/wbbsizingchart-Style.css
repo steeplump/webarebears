@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #E8F2FD;
+	background-image: linear-gradient(140deg, #E8F2FD, #98C4E5);
+}
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: #09157D;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 155px;
+}
+#headerLinks {
+	float: left;
+	width: calc( 100% - 155px );
+	text-align: right;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+#headerLinks a {
+	text-decoration: none;
+	color: #244050;
+	padding-left: 66px;
+	font-size: 16px;
+}
+#title {
+	font-family: 'Montserrat', sans-serif;
+	color: #09157D;
+	text-align: center;
+}
+
+section {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	padding: 20px;
+}
+
+table {
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	width: 96%;
+	border-collapse: collapse;
+	text-transform: uppercase;
+	
+}
+th, td {
+	border: 1px solid #244050;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+tr:nth-child(1) {
+	background-color: #8BB9EF;
+}
+/*footer*/
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: #8BB9EF;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+#mainWrapper footer div {
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #244050;
+	text-align: justify;
+}
+footer div a {
+	color: #244050;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+}
+.footerdesc {
+	width: 35%;
+}
+.footerdesc p {
+	font-size: 14-px;
+}
+.footerlinks {
+	width: 15%;
+	text-align: left;
+}
+.footerlinks p {
+	font-size: 14px;
+}
+.footerpic {
+	width: 35%;
+	float: right;
+}

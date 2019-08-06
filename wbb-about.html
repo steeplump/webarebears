@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WeBareBears-Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="wbbdwsAssets/styles/wbbabout-Style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+<div id="mainWrapper">
+<!--Header (Logo / Headerlinks)-->
+	<header> 
+		<div id="logo"><img src="img/logo/wbblogo.png.png" alt="wbblogo"></div>
+		<div id="headerLinks">
+			<a href="wbb-home.html" title="Home">Home</a>
+			<a href="wbb-shop1.html" title="Merchandise">Merchandise</a>
+			<a href="wbb-ordertracking.html" title="Track My Order">Track My Order</a>
+			<a href="wbb-login.html" title="Login / Sign Up">Login / Sign Up</a>
+			<a href="#" title="Cart">Cart</a>
+			<a href="wbb-contact.html" title="Contact Us">Contact Us</a>
+		</div>
+	</header>
+	
+<!--Welcome Title-->
+	
+	<section class="wctitle">
+		<h1><strong>Welcome to We Bare Bears Official Merchandising Store!</strong></h1>
+		<p><strong>Cartoon Network</strong> in collaboration with <strong>Potato Farm Coders</strong></p>
+	</section>
+	
+<!--Slideshow presentation (img of wbbs)-->
+	
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<img src="img/slideshow/63362.jpg" style="width:100%" alt="The Bears">
+		</div>
+		
+		<div class="mySlides fade">
+			<img src="img/slideshow/63334.jpg" style="width:100%" alt="Gangstar Bears">
+		</div>
+		
+		<div class="mySlides fade">
+			<img src="img/slideshow/63326.jpg" style="width:100%" alt="Ice Bear Holding A Rose">
+		</div>
+		
+		<div class="mySlides fade">
+			<img src="img/slideshow/63295.jpg" style="width:100%" alt="Baby Bears At Dress Up">
+		</div>
+		
+		<div class="mySlides fade">
+			<img src="img/slideshow/63488.jpg" style="width:100%" alt="Bears Home">
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span> 
+		<span class="dot" onclick="currentSlide(5)"></span> 
+	</div>
+	<script>
+		var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+	</script>
+	<div id="aboutwbb">
+		<h2><strong>About We Bare Bears</strong></h2>
+		<p>First airing on July 27th, 2015, We Bare Bears is a Cartoon Network original
+		animated comedy focusing on the lives of three unique bear brothers. Created by 
+		Daniel Chong, the creator of the webcomic The Three Bare Bears, the story follows
+		Grizzly, Panda and Ice Bear's attempts at humorously integrating themselves into
+		the society of the San Francisco Bay Area.</p>
+	</div>
+		<div style="border: 2px solid #D5CC5A; overflow: hidden; margin: 15px auto; max-width: 750px;">
+			<iframe scrolling="yes" src="http://webarebears.wikia.com/wiki/The_Bears" style="border: 0px none; margin-left: -10px; height: 850px; margin-top: -525px; width: 800px;">
+			</iframe>
+		</div>
+	<div id="aboutus">
+		<h2><strong>About Us</strong></h2>
+		<p>We Bare Bears Official Merchandise Store is an online retail collection of all 
+		things We Bare Bears.</p>
+		<h3><strong>About <i>webarebears.merch.com</i></strong></h3>
+		<p>Licensed by Cartoon Network, WeBareBears.Merch.com is the place to find designs and characters from the world’s best-loved We Bare Bears TV Show, on Cartoon Network. Search our extensive collection of artwork for your favourite characters, from Ice Bear to Nom Nom. With our brilliant designs increasing in range regularly, WeBareBears.Merch.com is a one-stop shop for We Bare Bears fans to discover exclusive designs that engage, delight and bring happiness to the recepient of any gift.</p>
+		<h3><strong>About <i>Potato Farm Coders</i></strong></h3>
+		<p><strong>Skill Level: </strong>Potato</p>
+	</div>
+	<footer> 
+		<div class="footerdesc">
+			<img src="img/logo/wbblogo.png.png" alt="wbblogo">
+			<h6>&copy;We Bare Bears Online Merchandising Store</h6>
+			<p>As the first offical online merchandising store for Cartoon Networks popular TV series We Bare Bears, we create endless style possibilities through an ever-expanding range of products form the most coveted international and local brands, putting you at the centre of the surrounding bears.</p>
+		</div>
+		<div class="footerlinks">
+			<h4>CUSTOMER SERVICE</h4>
+			<p><a href="wbb-contact.html" title="Link">Contact Us</a></p>
+			<p><a href="wbb-about.html" title="Link">About Us</a></p>
+			<p><a href="#" title="Link">Payment Methods</a></p>
+			<p><a href="wbb-sizingchart.html" title="Link">Sizing Guide</a></p>
+			<p><a href="#" title="Link">Help</a></p>
+		</div>
+		<div class="footerpic">
+			<img src="img/Cubs220px.png" alt="wbbcubs">
+		</div>
+	</footer>
+	</div>
+</body>
+</html>

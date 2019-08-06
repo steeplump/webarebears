@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	width: 100%;
+}
+body {
+	background-color: #E8F2FD;
+	background-image: linear-gradient(140deg, #E8F2FD, #98C4E5);
+}
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: #09157D;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 155px;
+}
+#headerLinks {
+	float: left;
+	width: calc( 100% - 155px );
+	text-align: right;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+#headerLinks a {
+	text-decoration: none;
+	color: #244050;
+	padding-left: 66px;
+	font-size: 16px;
+}
+/*Product Infromation Section*/

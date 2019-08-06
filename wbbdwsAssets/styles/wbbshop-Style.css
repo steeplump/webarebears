@@ -1,0 +1,243 @@
+@charset "utf-8";
+body {
+	background-color: #E8F2FD;
+	background-image: linear-gradient(140deg, #E8F2FD, #98C4E5);
+}
+a:hover {
+	color: #3A6781;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: #09157D;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 155px;
+}
+#headerLinks {
+	float: left;
+	width: calc( 100% - 155px );
+	text-align: right;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+#headerLinks a {
+	text-decoration: none;
+	color: #244050;
+	padding-left: 66px;
+	font-size: 16px;
+}
+/*#offer {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	clear: both;
+	background-color: #A3C9F6;
+	color: #244050;
+	padding-left: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}*/
+#alertsec {
+	/*font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";*/
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+}
+.alert {
+    padding: 20px;
+    background-color: #244050;
+    color: whitesmoke;
+	text-align: center;
+	font-size: 14px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+.alert:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+/*.closebutton {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebutton:hover {
+    color: black;
+    
+}*/
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: #244050;
+	float: left;
+	width: 13%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: #8BB9EF;
+	padding-top: 36px;
+	height: 784px;
+}
+#content .mainContent {
+	float: left;
+	width: 77%;
+	text-align: center;
+	padding-left: 4%;
+}
+#content .sidebar #menubar {
+	text-align: left;
+	color: #244050;
+	position: relative;
+	left: 0%;
+}
+#content .sidebar #search {
+	width: 100%;
+	border-radius: 0px;
+	height: 35px;
+	text-align: center;
+	color: #244050;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+}
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+}
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+.productInfo img {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.15);
+	transition: 0.5s
+}
+.productInfo img:hover {
+	transform: scale(0.99);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0);
+}
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: #244050;
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: #244050;
+}
+.productRow .productInfo .buyButton {
+	background-color: #FFFFFF;
+	position: relative;
+	top: -30px;
+	width: 80%;
+	height: 35px;
+	color: #244050;
+	border: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+	transition: 0.9s;
+}
+.buyButton:hover {
+	transform: scale(1.1);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.productInfo div img {
+	width: 100%;
+}
+.sidebar #menubar .menu ul li a {
+	color: #244050;
+	text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: #3A6781;
+	text-decoration: none;
+}
+#menubar .menu h2 {
+	font-size: 14px;
+}
+#menubar .menu ul li a {
+	font-size: 14px;
+}
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+/*footer*/
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: #8BB9EF;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+#mainWrapper footer div {
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #244050;
+	text-align: justify;
+}
+footer div a {
+	color: #244050;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+}
+.footerdesc {
+	width: 35%;
+}
+.footerdesc p {
+	font-size: 14-px;
+}
+.footerlinks {
+	width: 15%;
+	text-align: left;
+}
+.footerlinks p {
+	font-size: 14px;
+}
+.footerpic {
+	width: 35%;
+	float: right;
+}

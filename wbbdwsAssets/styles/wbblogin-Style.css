@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background-color: #E8F2FD;
+	background-image: linear-gradient(140deg, #E8F2FD, #98C4E5);
+	font-family: 'Montserrat', sans-serif;
+}
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: #09157D;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 155px;
+}
+#headerLinks {
+	float: left;
+	width: calc( 100% - 155px );
+	text-align: right;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+#headerLinks a {
+	text-decoration: none;
+	color: #244050;
+	padding-left: 66px;
+	font-size: 16px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+	border: none;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+    box-sizing: border-box;
+	transition: 0.6s;
+}
+input[type=text]:hover, input[type=password]:hover {
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+/* Set a style for all buttons */
+button {
+	font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    color: #244050;
+    padding: 15px 20px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+	transition: 0.6s;
+}
+button:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0);
+	/*background-color: #244050;
+	color: whitesmoke;*/
+	transform: scale(.99);
+}
+button a {
+	text-decoration: none;
+	color: #244050;
+}
+/* Center the image and position the close button */
+.container {
+    padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 20px;
+	color: #244050;
+	clear: both;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* Forgot Password div */
+.fgtpwdlink {
+	text-align: center;
+	padding-top: 3px;
+}
+.fgtpwdlink a {
+	font-family: 'Montserrat', sans-serif;
+	color: #244050;
+	text-decoration: none;
+	text-align: center;
+}
+/*footer*/
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: #8BB9EF;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+#mainWrapper footer div {
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #244050;
+	text-align: justify;
+}
+footer div a {
+	color: #244050;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+}
+.footerdesc {
+	width: 35%;
+}
+.footerdesc p {
+	font-size: 14-px;
+}
+.footerlinks {
+	width: 15%;
+	text-align: left;
+}
+.footerlinks p {
+	font-size: 14px;
+}
+.footerpic {
+	width: 35%;
+	float: right;
+}
